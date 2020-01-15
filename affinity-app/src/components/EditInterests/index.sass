@@ -1,0 +1,108 @@
+.edit-profile
+    background-image: white
+    padding: .5rem
+    align-content: space-around
+    &__field
+        text-align: center
+    &__title
+        color: black
+        font-size: 1.5rem
+    &__name
+        font-size: 300%
+    &__age
+        font-size: 200%
+    &__geometric
+        position: relative
+        top: 50%
+        width: 60%
+        height: auto
+        opacity: 0.3
+    &__slidecontainer
+        display: flex
+        flex-direction: row
+        justify-content: space-between
+    &__add-interest
+        border: .3rem solid black
+        background: white
+        border-radius: 20%
+    &__slider-block
+        width: 30vw
+        margin: 2em 0
+    &__interest
+        display: flex
+        align-items: center
+        justify-content: center
+        flex-wrap: wrap
+    &__interests
+        display: flex
+        align-items: center
+        flex-direction: column
+    &__radius
+        margin: 1rem
+        display: flex
+        align-items: center
+        flex-direction: column
+        justify-content: space-around
+    &__submit
+        border-radius: .5rem
+        padding: .5rem
+        height: 5vh
+        width: 5vh
+        margin-bottom: 1rem
+    &__description
+        display: flex
+        flex-direction: column
+        align-content: space-around
+        justify-content: center
+        margin-left: 15%
+    &__description-text
+        border: .3rem solid #cccccc
+        padding: .5rem
+        font-family: Tahoma, sans-serif
+        background-position: bottom right
+        background-repeat: no-repeat
+        width: 60vw
+        height: 10vh
+
+.radius
+    width: 60vw
+
+.input-range__slider
+    background-color: rebeccapurple
+
+.input-range__track
+    background-color: lightgrey
+
+.input-range__track--active
+    background-color: rebeccapurple
+
+.InputRange.vertical
+    height: 100%
+    width: 1rem
+    min-height: 200px
+
+.vertical .InputRange-track--container
+    margin-top: 0
+    top: 0
+    bottom: 0
+    left: 50%
+    margin-left: -0.15rem
+    height: 100%
+
+.vertical .InputRange-slider
+    margin-left: -0.25rem
+
+.vertical .InputRange-label--min
+    bottom: 0
+    left: 1.75rem
+
+.vertical .InputRange-label--max
+    right: -0.5rem
+    top: 0
+
+.vertical .InputRange-label--value
+    left: 1.5rem
+    top: -0.5rem
+
+.input-range__label-container
+    display: none
